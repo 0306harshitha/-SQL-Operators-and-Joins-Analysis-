@@ -16,7 +16,7 @@ operators, filtering, grouping, and join operations using multiple tables.
 - WHERE, LIKE, IN, BETWEEN
 - AND / OR / NOT operators
 - ORDER BY, DISTINCT
-- Aggregate functions (COUNT, MAX, AVG)
+- Aggregate functions (SUM,COUNT, MIN,MAX, AVG)
 - INNER JOIN and LEFT JOIN
 - Handling NULL values in joins
 
