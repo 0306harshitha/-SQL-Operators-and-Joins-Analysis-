@@ -1,6 +1,4 @@
-# sql-employee-details-analysis-project
-
-# SQL Operators and Joins Analysis
+# SQL Operators and Joins Analysis project
 
 ## Objective
 To demonstrate strong understanding of SQL fundamentals including
