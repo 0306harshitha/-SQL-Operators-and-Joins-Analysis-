@@ -42,10 +42,8 @@ select avg(Salary) [Finance Average] from Employees where Department like 'Finan
 
 
 --10)select employees whose last name starts with 'M'?
-select * from Employees where LastName like 'm%'
+select * from Employees where LastName like 'M%'
 
-
-select * from Employees
 
 --11)select employees who work in the 'IT' department and have a salary greater than 75,000
 select * from employees where Department in ('IT') and Salary>=75000
@@ -68,11 +66,11 @@ select * from Employees where Salary between 60000 and 70000 and Department in (
 
 
 --15)employees who work in the 'IT' department and do not have a salary greater than 80,000
-select * from Employees where Department = 'Finance' and Salary<=80000
+select * from Employees where Department = 'IT' and Salary<=80000
 
 --or
 
-select * from Employees where Department in ('Finance') and not Salary>80000
+select * from Employees where Department in ('IT') and not Salary>80000
 
 
 --16)employees who work in the 'HR' or 'Finance' departments and have a salary greater than 65,000
@@ -81,7 +79,7 @@ select * from Employees where (Department in ('HR') OR Department in ('Finance')
 select * from Employees
 
 --17)select employees whose last name starts with 'D' and do not work in the 'HR' department
-select * from Employees where LastName like 'd%' and Department not in ('HR')
+select * from Employees where LastName like 'D%' and Department not in ('HR')
 
 
 --18)find employees who do not work in the 'IT' department and have a salary greater than 70,000
@@ -95,3 +93,4 @@ select * from Employees where (Salary>75000 or FirstName = 'Laura') and Departme
 
 --20)find employees who do not work in the 'HR' or 'IT' departments
 select * from Employees where Department not in ('HR','IT')
+
